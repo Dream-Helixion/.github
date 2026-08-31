@@ -103,6 +103,6 @@ Dream Helixion을 통해 사람과 사업이 꿈과 목표를 실제 결과로 �
 [![Meet the founder](https://img.shields.io/badge/Meet_the_Founder-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ghimdohyun)
 
 <br />
-<sub>Build → Validate → Improve → Repeat</sub>
+<strong>Build → Validate → Improve → Repeat</strong>
 
 </div>
