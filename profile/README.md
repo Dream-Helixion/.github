@@ -91,6 +91,7 @@ AI 홈페이지 빌더, 프로젝트 관리, 게시·도메인·결제 흐름을
 ## Founder
 
 **Dohyun Ghim · 김도현**<br />
+CEO & Founder, Dream Helixion · 경성대학교 재학 중<br />
 Software Engineering & AI · Full-Stack Web Development · AI Product Building
 
 Dream Helixion을 통해 사람과 사업이 꿈과 목표를 실제 결과로 바꾸도록 돕고 있습니다.
