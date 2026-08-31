@@ -18,6 +18,10 @@
       <stop stop-color="#8BE9FF" stop-opacity="0"/><stop offset="0.48" stop-color="#B9A7FF" stop-opacity="0.95"/><stop offset="1" stop-color="#FFB7D5" stop-opacity="0"/>
     </linearGradient>
     <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="depthShadow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur in="SourceAlpha" stdDeviation="7" result="blur"/><feOffset dy="12" result="offset"/><feComponentTransfer><feFuncA type="linear" slope="0.45"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="glassRim" x1="-90" y1="-90" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.92"/><stop offset="0.35" stop-color="#A5F3FC" stop-opacity="0.48"/><stop offset="0.7" stop-color="#818CF8" stop-opacity="0.34"/><stop offset="1" stop-color="#F0ABFC" stop-opacity="0.8"/>
+    </linearGradient>
   </defs>
   <rect width="1280" height="420" rx="30" fill="url(#bg)"/>
   <rect width="1280" height="420" rx="30" fill="url(#halo)"/>
@@ -32,12 +36,21 @@
       <ellipse rx="188" ry="66" stroke="#D8C8FF" stroke-opacity="0.24" stroke-width="1.5"/>
       <animateTransform attributeName="transform" type="rotate" from="-22" to="338" dur="20s" repeatCount="indefinite"/>
     </g>
-    <circle r="96" fill="url(#core)" stroke="#E4FBFF" stroke-opacity="0.68" stroke-width="2"/>
-    <g opacity="0.3" stroke="#E0F7FF" stroke-width="1.5">
+    <g filter="url(#depthShadow)">
+      <circle r="96" fill="url(#core)"/>
+      <g opacity="0.24" fill="#D9F7FF">
+        <path d="M-70 -28C-48 -48-24 -54 2 -42C15 -36 19 -22 5 -13C-11 -3-23 6-44 2C-65 -2-80 -13-70 -28Z"/>
+        <path d="M28 22C48 6 75 12 83 29C89 43 70 55 50 53C32 51 15 40 28 22Z"/>
+        <path d="M-25 42C-8 31 7 35 13 48C18 61 2 73-17 68C-31 64-37 51-25 42Z"/>
+      </g>
+      <g opacity="0.3" stroke="#E0F7FF" stroke-width="1.5">
       <ellipse rx="50" ry="96" transform="rotate(20)"><animateTransform attributeName="transform" type="rotate" from="20" to="380" dur="14s" repeatCount="indefinite"/></ellipse>
       <ellipse rx="23" ry="96" transform="rotate(20)"><animateTransform attributeName="transform" type="rotate" from="20" to="380" dur="14s" repeatCount="indefinite"/></ellipse>
       <ellipse rx="86" ry="32" transform="rotate(-12)"><animateTransform attributeName="transform" type="rotate" from="-12" to="348" dur="14s" repeatCount="indefinite"/></ellipse>
       <ellipse rx="77" ry="16" transform="rotate(-12)"><animateTransform attributeName="transform" type="rotate" from="-12" to="348" dur="14s" repeatCount="indefinite"/></ellipse>
+      </g>
+      <circle r="96" fill="none" stroke="url(#glassRim)" stroke-width="2" stroke-opacity="0.7"/>
+      <path d="M-70 -62A94 94 0 0 1 19 -92" fill="none" stroke="white" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round"/>
     </g>
     <ellipse cx="-29" cy="-39" rx="28" ry="15" fill="white" fill-opacity="0.44" transform="rotate(-28)"><animate attributeName="opacity" values="0.2;0.72;0.2" dur="3.8s" repeatCount="indefinite"/></ellipse>
     <g transform="rotate(-22)">

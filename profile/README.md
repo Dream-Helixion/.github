@@ -4,7 +4,7 @@
   <p>
     <a href="https://dreamhelixion.com/"><img src="https://img.shields.io/badge/Official_Site-dreamhelixion.com-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Official site" /></a>
     <a href="https://github.com/ghimdohyun"><img src="https://img.shields.io/badge/Founder-ghimdohyun-111827?style=for-the-badge&logo=github&logoColor=white" alt="Founder GitHub" /></a>
-    <img src="https://img.shields.io/badge/Digital_Product_Studio-7C3AED?style=for-the-badge&logo=sparkfun&logoColor=white" alt="Digital Product Studio" />
+    <a href="https://dreamhelixion.com/"><img src="https://img.shields.io/badge/Digital_Product_Studio-7C3AED?style=for-the-badge&logo=sparkfun&logoColor=white" alt="Digital Product Studio" /></a>
   </p>
 </div>
 
