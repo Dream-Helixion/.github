@@ -56,12 +56,6 @@ AI 기반 견적·브랜드 진단·홈페이지 기획과 AI agent toolkit을 �
 
 AI 홈페이지 빌더, 프로젝트 관리, 게시·도메인·결제 흐름을 포함한 SaaS입니다.
 
-### [TaskView Platform](https://github.com/ghimdohyun/taskview-platform)
-
-<a href="https://taskview.dreamhelixion.com/"><img src="https://img.shields.io/badge/Live-taskview.dreamhelixion.com-0EA5E9?style=flat-square&logo=vercel&logoColor=white" alt="Live" /></a>
-
-목적과 승인 흐름을 데이터 뷰로 연결하는 프라이버시 중심 업무 플랫폼입니다.
-
 ### [DreamHelixion Planner](https://github.com/ghimdohyun/dreamhelixion-planner)
 
 <a href="https://planner.dreamhelixion.com/"><img src="https://img.shields.io/badge/Live-planner.dreamhelixion.com-8B5CF6?style=flat-square&logo=vercel&logoColor=white" alt="Live" /></a>
