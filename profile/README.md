@@ -68,9 +68,7 @@ AI 홈페이지 빌더, 프로젝트 관리, 게시·도메인·결제 흐름을
 | --- | --- | --- |
 | Brand Studio | [dreamhelixion.com](https://dreamhelixion.com/) | [imweb-ai-toolkit](https://github.com/ghimdohyun/imweb-ai-toolkit) |
 | Web Builder | [builder.dreamhelixion.com](https://builder.dreamhelixion.com/) | [dreamhelixion-web-builder](https://github.com/ghimdohyun/dreamhelixion-web-builder) |
-| TaskView | [taskview.dreamhelixion.com](https://taskview.dreamhelixion.com/) | [taskview-platform](https://github.com/ghimdohyun/taskview-platform) |
 | Planner | [planner.dreamhelixion.com](https://planner.dreamhelixion.com/) | [dreamhelixion-planner](https://github.com/ghimdohyun/dreamhelixion-planner) |
-| FastAPI AI Lab | [ai.dreamhelixion.com](https://ai.dreamhelixion.com/) | [fastapi-lecture-06](https://github.com/ghimdohyun/fastapi-lecture-06) |
 | Facility SaaS | [fieldlink.dreamhelixion.com](https://fieldlink.dreamhelixion.com/) | [fieldlink-facility-saas](https://github.com/ghimdohyun/fieldlink-facility-saas) |
 
 ## Our principle
